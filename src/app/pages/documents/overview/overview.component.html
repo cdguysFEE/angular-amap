@@ -1,1 +1,10 @@
-<amap-map></amap-map>
+<amap-map [zoom]="10">
+  <amap-marker
+    *ngFor="let marker of markers"
+    [latitude]="marker.lat"
+    [longitude]="marker.lng"
+    [content]="content"
+    [offsetY]="-10"
+    [offsetX]="-5"
+  ></amap-marker>
+</amap-map>
