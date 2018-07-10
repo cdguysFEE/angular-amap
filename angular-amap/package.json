@@ -1,0 +1,6 @@
+{
+  "name": "angular-amap",
+  "scripts": {
+    "build:lib": "ng-packagr"
+  }
+}
